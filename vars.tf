@@ -1,7 +1,6 @@
 variable "region" {}
 variable "instancetype" {}
 variable "count" {}
-variable "SSHKEY" {}
 
 variable "amis" {
   type = "map"
